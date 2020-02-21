@@ -1,7 +1,11 @@
 // Navigation code here
 header {
-  background-color: #f4f4f4;
+  background-color: @nav-bg;
   padding: 1%;
+
+  @media @phone {
+    width: 100%;
+  } // this closes media query
   
   h1 {
     text-align: center;
@@ -10,8 +14,7 @@ header {
   } // this closes h1
 
   nav {
-    display: flex;
-    justify-content: space-evenly;
+    .flex-row(space-evenly);
     width: 35%;
     margin: 0 auto;
 
