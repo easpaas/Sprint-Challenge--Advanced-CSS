@@ -32,8 +32,24 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-    }
-  }
+
+      @media @phone {
+        width: 100%;
+      } // this closes media query
+    } // this closes img
+
+    .sky {
+      @media @phone {
+        display: none; 
+      } // this closes media query
+    } // this closes .sky
+
+    .launch {
+      @media @phone {
+        display: none;
+      } // this closes media query
+    } // this closes .launch
+  } // this closes .space-images
 
   .visit-planets {
     padding: 15px;
