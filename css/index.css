@@ -186,6 +186,10 @@ p {
 header {
   background-color: #F6F6F6;
   padding: 1%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.8;
 }
 @media (max-width: 500px) {
   header {
