@@ -160,6 +160,26 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  background-color: #f4f4f4;
+  padding: 2%;
+}
+header h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 2%;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  margin: 0 auto;
+}
+header nav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: black;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -170,7 +190,7 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.home .intro h2 {
+.home .intro img h2 {
   padding: 15px;
 }
 .home .intro p {
