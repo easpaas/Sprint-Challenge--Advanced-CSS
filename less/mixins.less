@@ -14,3 +14,18 @@
   .flex();
   justify-content: @justify;
 } 
+
+.button(@color, @background, @len, @radius, @padding, @align, @size) {
+  color: @color;
+  background-color: @background;
+  width: @len;
+  border-radius: @radius;
+  padding: @padding;
+  text-align: @align;
+  font-size: @size;
+  
+  &:hover {
+    color: @background;
+    background-color: @color;
+  } // this closes button hover
+} // this closes button
