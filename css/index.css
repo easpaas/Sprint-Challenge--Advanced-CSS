@@ -162,7 +162,7 @@ p {
 }
 header {
   background-color: #f4f4f4;
-  padding: 2%;
+  padding: 1%;
 }
 header h1 {
   text-align: center;
@@ -171,13 +171,13 @@ header h1 {
 }
 header nav {
   display: flex;
-  justify-content: space-between;
-  width: 45%;
+  justify-content: space-evenly;
+  width: 35%;
   margin: 0 auto;
 }
 header nav a {
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: black;
 }
 footer {
@@ -190,7 +190,10 @@ footer {
   justify-content: center;
   align-items: center;
 }
-.home .intro img h2 {
+.home .intro img {
+  margin-bottom: 2%;
+}
+.home .intro h2 {
   padding: 15px;
 }
 .home .intro p {
